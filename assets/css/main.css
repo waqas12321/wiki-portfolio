@@ -752,6 +752,7 @@ section,
   line-height: 1.7rem;
   font-size: 17px;
   color: #040b14c3;
+<<<<<<< HEAD
 }
 
 /* =======Make heading Responsive=============== */
@@ -761,6 +762,17 @@ section,
   display: block;
   font-size: 2.5rem; /* Example: Larger font size for PC */
   color: #040b14c3; /* Default color */
+=======
+  /* text-align: justify; */
+  /* margin-right: 2.5rem; */
+}
+
+.ser-ul .ser-li {
+  position: relative; /* Set relative position */
+  padding-left: 25px; /* Create space for the custom bullet */
+  /* text-align: justify; Justify text alignment */
+  margin-bottom: 5px;
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
 }
 
 .container-std-ass h4,
@@ -782,6 +794,7 @@ section,
   }
 }
 
+<<<<<<< HEAD
 /* Mobile (width less than 768px) */
 @media (max-width: 767px) {
   .container-std-ass h1,
@@ -789,6 +802,42 @@ section,
     display: none; /* Hide h1 and h4 on mobiles */
   }
 
+=======
+/* =======Make heading Responsive=============== */
+
+/* Default (PC) styles */
+.container-std-ass h1 {
+  display: block;
+  font-size: 2.5rem; /* Example: Larger font size for PC */
+  color: #040b14c3; /* Default color */
+}
+
+.container-std-ass h4,
+.container-std-ass h5 {
+  display: none; /* Hide h4 and h5 by default */
+}
+
+/* Tablet (width between 768px and 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-std-ass h1 {
+    display: none; /* Hide h1 on tablets */
+  }
+  
+  .container-std-ass h4 {
+    display: block;
+    font-size: 1.5rem; /* Adjusted font size for tablet */
+    color: #040b14c3; /* Same color or adjust as needed */
+    font-weight: 700;
+  }
+}
+
+/* Mobile (width less than 768px) */
+@media (max-width: 767px) {
+  .container-std-ass h1, .container-std-ass h4 {
+    display: none; /* Hide h1 and h4 on mobiles */
+  }
+  
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   .container-std-ass h5 {
     display: block;
     font-size: 1rem; /* Adjusted font size for mobile */
@@ -797,11 +846,19 @@ section,
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
 /*--------------------------------------------------------------
 # Assignment Packages Start 
 --------------------------------------------------------------*/
 
+<<<<<<< HEAD
 .ulPac {
+=======
+.ulPac{
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   list-style: none;
   text-align: center;
   padding: 0;
@@ -809,6 +866,7 @@ section,
   line-height: 2.5rem;
   font-size: 1rem;
   letter-spacing: 0.04rem;
+<<<<<<< HEAD
 }
 .styled-hr {
   border: none;
@@ -817,6 +875,17 @@ section,
 }
 
 .hprice {
+=======
+
+}
+.styled-hr {
+      border: none;                  
+      border-top: 1px solid rgba(255, 255, 255, 0.205);
+      width: 80%
+  }
+
+.hprice{
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   font-size: 4rem;
   margin: 0;
   padding: 0;
@@ -825,17 +894,27 @@ section,
   margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 .headPack {
+=======
+.headPack{
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   text-align: center;
   font-size: 1.5rem;
   color: white;
 }
 
+<<<<<<< HEAD
 .containerPackages {
+=======
+.containerPackages{
+
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   display: flex;
   align-content: space-around;
   gap: 15px;
   margin: 20px;
+<<<<<<< HEAD
 }
 
 .packmar {
@@ -850,6 +929,26 @@ section,
 }
 
 .cardPackages {
+=======
+  
+
+}
+
+.packmar{
+  margin-top: 30px;
+}
+
+.package-platinum{
+
+  flex-basis: 33%;
+  background: linear-gradient(to left, #371F4E, #1F2B53);
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.cardPackages{
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   background-color: rgba(0, 0, 0, 0.786);
   padding: 20px;
   border-radius: 20px;
@@ -857,16 +956,28 @@ section,
 }
 
 @media (min-width: 375px) and (max-width: 1024px) {
+<<<<<<< HEAD
   .containerPackages {
     display: grid;
     align-items: center;
+=======
+  .containerPackages {    
+      display: grid;          
+      align-items: center;          
+             
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   }
 }
 
 @media (max-width: 374px) {
   .containerPackages {
+<<<<<<< HEAD
     display: grid;
     align-items: center;
+=======
+      display: grid;
+      align-items: center;
+>>>>>>> dfe2c7e8eab68a3c55fd0a385dc40032be043c1c
   }
 }
 
